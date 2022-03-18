@@ -5,16 +5,36 @@
 }
 
 header{
-  height: 100px;
+  height: 50px;
   background-color: blue;
 }
 
 main{
-  height: calc(100vh - 200px);
+  height: calc(100vh - 150px);
   background-color: chartreuse;
 }
 
 footer{
   height: 100px;
   background-color: brown;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: cornflowerblue; */
+}
+
+.item{
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* flex-basis: 20%; */
+  position: relative;
+}
+
+.mute{
+  position: absolute;
 }
